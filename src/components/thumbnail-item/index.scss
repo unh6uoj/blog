@@ -8,6 +8,8 @@
   box-shadow: none;
   transition: text-shadow 0.3s, opacity 0.4s;
   opacity: 0;
+  transition: all 0.3s;
+  border-radius: 20px;
 
   p {
     font-size: 90%;

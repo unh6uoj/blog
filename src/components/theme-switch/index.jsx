@@ -88,9 +88,9 @@ export const ThemeSwitch = () => {
             </div>
           }
           offColor={'#d9dfe2'}
-          offHandleColor={'#fff'}
+          offHandleColor={'#444'}
           onColor={'#999'}
-          onHandleColor={'#282c35'}
+          onHandleColor={'#aaa'}
         />
       </label>
     </div>

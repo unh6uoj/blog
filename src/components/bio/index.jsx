@@ -9,7 +9,6 @@ export const Bio = forwardRef((props, ref) => {
     query={bioQuery}
     render={data => {
       const { author, social, introduction } = data.site.siteMetadata
-
       return (
         <div ref={ref} className="bio">
           <div className="author">
