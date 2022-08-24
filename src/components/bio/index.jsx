@@ -1,6 +1,7 @@
 import React, { forwardRef } from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
+import { SiInstagram, SiGithub, SiFacebook, SiLinkedin } from "react-icons/si";
 
 import './index.scss'
 
@@ -22,19 +23,22 @@ export const Bio = forwardRef((props, ref) => {
                 }}
               />
               <div className="author-name">
-                <Link to={'/about'} className="author-name-content">
+                {/* <Link to={'/about'} className="author-name-content">
                   <span>@{author}</span>
-                </Link>
-                <span className="author-name-prefix"></span>
+                </Link> */}
+                {/* <span className="author-name-prefix"></span> */}
                 <div className="author-introduction">{introduction}</div>
                 <p className="author-socials">
+                contact
                   {social.instagram && (
                     <a href={`https://www.instagram.com/${social.instagram}`}>
-                      Instagram
+                      <SiInstagram size="25" aria-label="instagram" />
                     </a>
                   )}
                   {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    <a href={`https://github.com/${social.github}`}>
+                      <SiGithub size="25" aria-label="github" />
+                    </a>
                   )}
                   {social.medium && (
                     <a href={`https://medium.com/${social.medium}`}>Medium</a>
@@ -46,12 +50,12 @@ export const Bio = forwardRef((props, ref) => {
                   )}
                   {social.facebook && (
                     <a href={`https://www.facebook.com/${social.facebook}`}>
-                      Facebook
+                      <SiFacebook size="25" aria-label="facebook" />
                     </a>
                   )}
                   {social.linkedin && (
                     <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
-                      LinkedIn
+                      <SiLinkedin size="25" aria-label="linkedin" />
                     </a>
                   )}
                 </p>

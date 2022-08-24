@@ -13,8 +13,13 @@ export const Top = ({ title, location, rootPath }) => {
         <Link to={`/`} className="link">
           {title}
         </Link>
-      ) : <div />}
+      ) : <div className="link">UNH6UOJ</div>}
+      <div className="top-right">
+        <Link to={'/about'}>
+          <span>About</span>
+        </Link>
       <ThemeSwitch />
+      </div>
       {/* <GitHubIcon /> */}
     </div>
   )

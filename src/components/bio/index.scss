@@ -30,13 +30,16 @@
   }
 
   .author-introduction {
-    margin-top: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 80%;
     line-height: 1.4;
   }
 
   .author-socials {
+    display: flex;
     margin-top: 4px;
+    gap: 15px;
   }
 
   a {
