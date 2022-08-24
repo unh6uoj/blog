@@ -1,12 +1,16 @@
 @import '../../styles/variables.scss';
 
 .top {
+  display: flex;
+  align-items: center;
+  justify-content: end;
   position: sticky;
   width: 100%;
-  height: 60px;
+  height: 45px;
+  padding: 0 20px;
   backdrop-filter: blur(10px);
   top: 0;
-  box-shadow: 0 1px 3px 1px #eeeeeeee;
+  z-index: 1;
 
   .link {
     display: inline-block;

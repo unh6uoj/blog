@@ -2,6 +2,10 @@ body.light {
   background-color: $light-background-color;
   text-shadow: $light-text-shadow;
 
+  .top {
+    box-shadow: 0 1px 3px 1px #eeeeeeee;
+  }
+
   // home
   .home-header {
     color: $dark-gray;
@@ -20,10 +24,10 @@ body.light {
   }
 
   .category-container {
-    border-top: 1px solid $light-category-border-color;
-    border-bottom: 1px solid $light-category-border-color;
-    border-right: 6px solid $light-category-border-color;
-    border-left: 6px solid $light-category-border-color;
+    // border-top: 1px solid $light-category-border-color;
+    // border-bottom: 1px solid $light-category-border-color;
+    // border-right: 6px solid $light-category-border-color;
+    // border-left: 6px solid $light-category-border-color;
     background-color: $light-category-background-color;
     .item {
       border: 1px solid $light-category-border-color;
@@ -51,7 +55,7 @@ body.light {
       color: $middle-gray;
     }
     &:hover {
-      text-shadow: $light-hover-text-shadow;
+      // text-shadow: $light-hover-text-shadow;
       background: #eee;
     }
   }

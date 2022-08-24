@@ -22,10 +22,10 @@ export const Bio = forwardRef((props, ref) => {
                 }}
               />
               <div className="author-name">
-                <span className="author-name-prefix">Written by</span>
                 <Link to={'/about'} className="author-name-content">
                   <span>@{author}</span>
                 </Link>
+                <span className="author-name-prefix"></span>
                 <div className="author-introduction">{introduction}</div>
                 <p className="author-socials">
                   {social.instagram && (

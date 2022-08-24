@@ -2,7 +2,7 @@ module.exports = {
   title: `UNH6UOJ`,
   description: `I want hamburgers.`,
   author: `JongYun Jung`,
-  introduction: `Python Backend`,
+  introduction: `Web, Python, React ...`,
   siteUrl: `https://unh6uoj.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -27,7 +27,7 @@ module.exports = {
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '0', // Add your google analytics tranking ID
+  ga: 'G-SSQ1ZZ8FY8', // Add your google analytics tranking ID
   ad: '', // Add your google adsense publisherId `ca-pub-xxxxxxxxxx`
 
 }
