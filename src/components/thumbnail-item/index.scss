@@ -1,21 +1,41 @@
 @import '../../styles/variables.scss';
 
+@media all and (min-width: 1000px) {
+  .thumbnail {
+    min-height: calc(40vh);
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .thumbnail {
+    min-height: calc(20vh);
+  }
+}
+
 .thumbnail {
   display: block;
-  margin-bottom: 12px;
   padding: 4px;
-  padding-bottom: 12px;
   box-shadow: none;
   transition: text-shadow 0.3s, opacity 0.4s;
   opacity: 0;
   transition: all 0.3s;
   border-radius: 20px;
-  // max-height: calc(40vh);
-
+  
   p {
     font-size: 90%;
     line-height: 1.4;
   }
+}
+
+.thumbnail:hover {
+  box-shadow: 0 10px 2px 2px #99999933;
+  transform: translate(0, -5px);
+}
+
+.thumbnail:active {
+  box-shadow: none;
+  transform: translate(0);
+  transition: all 0s;
 }
 
 .thumbnail.visible {

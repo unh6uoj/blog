@@ -1,5 +1,18 @@
+@media all and (min-width: 1000px) {
+  .thumbnail-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .thumbnail-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 .thumbnail-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  min-height: calc(100vh - 3.5rem);
+  align-content: flex-start;
+  gap: 10px;
+  min-height: calc(100vh - 3rem);
 }
