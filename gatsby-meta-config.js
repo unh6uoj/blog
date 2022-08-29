@@ -1,5 +1,5 @@
 module.exports = {
-  title: `UNH6UOJ`,
+  title: `unh6uoj`,
   description: `I want hamburgers.`,
   author: `JongYun Jung`,
   introduction: `여러가지 공부 중 Python, FastAPI, Django, React`,
