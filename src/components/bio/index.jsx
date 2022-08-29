@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
-import { SiInstagram, SiGithub, SiFacebook, SiLinkedin } from "react-icons/si";
+import { SiInstagram, SiGithub, SiFacebook, SiLinkedin, SiGmail } from "react-icons/si";
 
 import './index.scss'
 
@@ -23,10 +23,6 @@ export const Bio = forwardRef((props, ref) => {
                 }}
               />
               <div className="author-name">
-                {/* <Link to={'/about'} className="author-name-content">
-                  <span>@{author}</span>
-                </Link> */}
-                {/* <span className="author-name-prefix"></span> */}
                 <div className="author-introduction">{introduction}</div>
                 <p className="author-socials">
                 contact
@@ -58,6 +54,9 @@ export const Bio = forwardRef((props, ref) => {
                       <SiLinkedin size="25" aria-label="linkedin" />
                     </a>
                   )}
+                    <a href={'mailto:fpdlxms159@gmail.com'}>
+                      <SiGmail size="25" aria-label="linkedin" />
+                    </a>
                 </p>
               </div>
             </div>
