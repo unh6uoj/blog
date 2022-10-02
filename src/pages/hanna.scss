@@ -1,0 +1,36 @@
+button {
+    border-radius: .625rem;
+    background-color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    &:active {
+        transform: none;
+    }
+}
+
+img {
+    display: none;
+    width: 500px;
+    height: 500px;
+
+    border-radius: 20px;
+    transition: all 0.5s;
+
+    // &:hover {
+    //     transform: rotateX(0.5turn);
+    // }
+    
+    &.is-rotate {
+        transform: rotateX(0.5turn);
+    }
+}
+
+.is-visible {
+    display: block;
+}
