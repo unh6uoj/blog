@@ -44,11 +44,11 @@ export const Bio = forwardRef((props, ref) => {
                       Twitter
                     </a>
                   )}
-                  {social.facebook && (
+                  {/* {social.facebook && (
                     <a href={`https://www.facebook.com/${social.facebook}`}>
                       <SiFacebook size="25" aria-label="facebook" />
                     </a>
-                  )}
+                  )} */}
                   {social.linkedin && (
                     <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
                       <SiLinkedin size="25" aria-label="linkedin" />

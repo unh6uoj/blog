@@ -1,5 +1,16 @@
 @import '../../styles/variables.scss';
 
+@media all and (max-width: 767px) {
+  .author-socials {
+    gap: 5px;
+  }
+}
+@media all and (min-width: 768px) {
+  .author-socials {
+    gap: 15px;
+  }
+}
+
 .bio {
   margin-bottom: 24px;
 
@@ -39,7 +50,6 @@
     display: flex;
     margin-top: 4px;
     line-height: 25px;
-    gap: 15px;
   }
 
   a {
@@ -51,8 +61,8 @@
     &.visited {
       text-decoration: none;
     }
-  }
-  a:hover {
-    transform: translateY(-2px);
+    &:hover {
+      transform: translateY(-2px);
+    }
   }
 }
