@@ -6,8 +6,6 @@ thumbnail: { ./images/selenium_logo.jpg }
 draft: false
 ---
 
-![selenium_logo](./images/selenium_logo.jpg)
-
 요즘 대부분의 웹 사이트들은 데이터들을 동적으로 받아와서 화면에 뿌려줍니다.
 
 그래서 웹 사이트가 데이터를 받아오기까지 시간이 필요한데, 흔히 selenium으로 웹 크롤링을 진행 하면서 이런 로딩 시간 때문에 에러가 많이 발생하곤 합니다.
