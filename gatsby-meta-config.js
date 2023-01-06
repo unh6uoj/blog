@@ -2,7 +2,7 @@ module.exports = {
   title: `unh6uoj`,
   description: `I want hamburgers.`,
   author: `JongYun Jung`,
-  introduction: `여러가지 공부 중 Python, FastAPI, Django, React`,
+  introduction: ``,
   siteUrl: `https://unh6uoj.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
